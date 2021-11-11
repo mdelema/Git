@@ -1,4 +1,4 @@
-# curso-github
+# CURSOs - GitHub & GitLab
 
 # Create a new repository on the command line
 echo "# master" >> README.md
