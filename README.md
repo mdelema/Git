@@ -63,7 +63,8 @@ $ git checkout main
 $ git merge "Nueva_Rama"
 
 >> Eliminar una rama
-$ git brunch -d "Nueva_Rama"
+$ git brunch -d "Nueva_Rama" --> comprueba si no hay commit's pendientes y de lo contrario no la borra 
+$ git brunch -D "Nueva_Rama" --> Fuerza el borrazo de la rama
 > Para elimiar del repositorio remoto tambièn"
 $ git push origin :"Nueva_Rama"
 
