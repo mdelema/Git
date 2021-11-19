@@ -23,6 +23,10 @@ $ git clone https://github.com/mdelema/"Test_Repo".git --> con https
 $ git clone git@github.com:mdelema/"Test_Repo".git ------> con ssh
 
 # Subir cambios al repositorio remoto: git push 
+$ git add .
+$ git commit -m "Comentario"
+$ git push 
+------------------------------
 $ git push -u origin <rama> --> sea main(principal) o cualquiera secundaria
 $ git push --set-upstream origin <rama> 
 
@@ -71,3 +75,5 @@ $ git push origin :"Nueva_Rama"
 >> Ver el historial de las ramas
 $ git log --graph --decorate --online --all
 
+# Recolector de basura
+$ git gc --> obliga a git a borrar toda la basura que nos halla quedado 
