@@ -22,7 +22,7 @@ $ git remote add origin git@github.com:mdelema/"Test_Repo".git ------> con ssh. 
 $ git clone https://github.com/mdelema/"Test_Repo".git --> con https
 $ git clone git@github.com:mdelema/"Test_Repo".git ------> con ssh
 
-# Subir Cambios al repositorio remoto: git push 
+# Subir cambios al repositorio remoto: git push 
 $ git push -u origin <rama> --> sea main(principal) o cualquiera secundaria
 
 # Bajar cambios del repositorio remoto: git pull
@@ -37,7 +37,6 @@ $ git fetch
 $ git merge origin/main
 
 # RAMAS 
-$ git branch -M main
 
 >> Crear nueva rama  
 $ git branch "Nueva_Rama"
