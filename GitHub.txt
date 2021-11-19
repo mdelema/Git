@@ -10,8 +10,8 @@ $ git status
 $ git commit -m "first-commit" --> "-m" para especificar el msj de los cambios
 
 # Crear repositorio Remoto
-$ git remote add origin https://github.com/user/......git --> con https
-$ git remote add origin git@github.com:user/..........git --> con ssh
+$ git remote add origin https://github.com/user/"Test_Repo".git --> con https
+$ git remote add origin git@github.com:user/"Test_Repo".git ------> con ssh
 >> En caso de ya estar creado 
 $ git remote add origin https://github.com/user/"Test_Repo".git --> con https
 $ git remote add origin git@github.com:user/"Test_Repo".git ------> con ssh. Para ello debemos configurar ssh en github
