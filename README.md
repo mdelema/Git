@@ -33,7 +33,7 @@ $ git pull
 $ git branch --set-upstream-to=origin/main main
 $ git log
 
-# Bajar los cambios y fusionarlos manualmente: git fetch y git mergeç
+# Bajar los cambios y fusionarlos manualmente: git fetch y git merge
 $ git fetch
 $ git merge origin/main
 
