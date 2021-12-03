@@ -75,3 +75,16 @@ $ git log --graph --decorate --online --all
 
 # Recolector de basura
 $ git gc --> obliga a git a borrar toda la basura que nos halla quedado 
+
+# Referenciar Issues desde un Commit
+$ git add .
+$ git commit -a  --> Dentro del commit indicar el número de Issues al que queremos hacer referencia, ej: Prueba #1.
+> Con eso, tendremos el Issues #1, un link al commit asociado.
+$ git push origin "main"
+
+# Cerrar Issues desde un Commit
+$ git add .
+$ git commit -a  --> Dentro del commit, luego del comentario de edición, indicar el Issues a cerrar, colocando Closes
+> ej: Closes #1.
+$ git push origin "main"
+
