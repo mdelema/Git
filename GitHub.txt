@@ -10,15 +10,15 @@ $ git status
 $ git commit -m "first-commit" --> "-m" para especificar el msj de los cambios
 
 # Crear repositorio Remoto
-$ git remote add origin https://github.com/user/"Test_Repo".git --> con https
-$ git remote add origin git@github.com:user/"Test_Repo".git ------> con ssh
+$ git remote add origin [ej: https://github.com/user/"Test_Repo".git] --> con https
+$ git remote add origin [ej: git@github.com:user/"Test_Repo".git] ------> con ssh
 >> En caso de ya estar creado 
-$ git remote add origin https://github.com/user/"Test_Repo".git --> con https
-$ git remote add origin git@github.com:user/"Test_Repo".git ------> con ssh. Para ello debemos configurar ssh en github
+$ git remote add origin [ej: https://github.com/user/"Test_Repo".git] --> con https
+$ git remote add origin [ej: git@github.com:user/"Test_Repo".git] ------> con ssh. Para ello debemos configurar ssh en github
 
 # Crear un repositorio local a partir del repo remoto.
-$ git clone https://github.com/user/"Test_Repo".git --> con https
-$ git clone git@github.com:user/"Test_Repo".git ------> con ssh
+$ git clone [ej: https://github.com/user/"Test_Repo".git] --> con https
+$ git clone [ej: git@github.com:user/"Test_Repo".git] ------> con ssh
 
 # Subir cambios al repositorio remoto: git push 
 $ git add .
@@ -35,7 +35,7 @@ $ git pull
 $ git branch --set-upstream-to=origin/main main
 $ git log
 
-# Bajar los cambios y fusionarlos manualmente: git fetch y git mergeç
+# Bajar los cambios y fusionarlos manualmente: git fetch y git merge
 $ git fetch
 $ git merge origin/main
 
@@ -88,3 +88,30 @@ $ git commit -a  --> Dentro del commit, luego del comentario de edición, indica
 > ej: Closes #1.
 $ git push origin "main"
 
+# Commit por Partes
+$ git add -p [ej: style.css]
+> Te mostrará los cambios que hiciste. Con "y" aceptas, con "n" cancelas, con "?" ves info y con "q" salis.
+
+# Hacer Fork desde GitHub Web.
+Seleccionas el repositorio que queres hacer una copia
+Dar click el botón "Fork", a la derecha arriba y listo, ya es tuyo.
+Luego en la terminal, hacer "git clone" para poder trabajar en él.
+
+# Crear Pull Request desde GitHub Web.
+Ve a tu repositorio GitHub y veras un botón llamado "Pull Request", has clic en él.
+Informa todo los detalles necesarios de lo que has hecho (se puede referenciar utilizando "#").
+Ahora, envía el pull request.
+Si tu pull request es aceptado, recibirás un mail.
+
+>> Agregar el repositorio original como un repositorio upstream
+$ git remote add upstream [ej: https://github.com/user/"Test_Repo".git]
+
+>>Buscar el repositorio
+$ git fetch upstream
+
+>> Fusionar enviar cambios.
+$ git merge upstream/main
+$ git push origin main
+
+>> Eliminar el repositorio upstream
+$ git remote rm upstream
