@@ -2,17 +2,15 @@
 $ mkdir "Test_Repo"
 $ cd "Test_Repo"
 $ git init
-$ echo "texto cualquiera para" > README.md
+$ echo "texto cualquiera" > README.md
 
 # Añadir archivos al repositorio: git add / git commit
-$ git add README.md
+$ git add . --> Añade todos los archivos.
+$ git add "Archivo" --> Añade solo uno "Archivo"
 $ git status
 $ git commit -m "first-commit" --> "-m" para especificar el msj de los cambios
 
 # Crear repositorio Remoto
-$ git remote add origin [ej: https://github.com/user/"Test_Repo".git] --> con https
-$ git remote add origin [ej: git@github.com:user/"Test_Repo".git] ------> con ssh
->> En caso de ya estar creado 
 $ git remote add origin [ej: https://github.com/user/"Test_Repo".git] --> con https
 $ git remote add origin [ej: git@github.com:user/"Test_Repo".git] ------> con ssh. Para ello debemos configurar ssh en github
 
