@@ -20,7 +20,8 @@ $ git clone [ej: git@github.com:user/"Test_Repo".git] ------> con ssh
 
 # Subir cambios al repositorio remoto: git push 
 $ git add .
-$ git commit -m "Comentario"
+$ git status
+$ git commit -m "Comentario" --> "-m" para especificar el msj de los cambios
 $ git push 
 ------------------------------
 $ git push -u origin <rama> --> sea main(principal) o cualquiera secundaria
