@@ -1,9 +1,9 @@
 ## Configuración Inicial
 
 ```ssh
-	git config --global user.name [ej: "Nom_User"] --> Nombre de los Commits
-	git config --global user.email [ej: "Nom_User"@gmail.com] --> Configurar Email
-	git config --global color.ui true --> Marco de colores para los comando
+	$ git config --global user.name [ej: "Nom_User"] --> Nombre de los Commits
+	$ git config --global user.email [ej: "Nom_User"@gmail.com] --> Configurar Email
+	$ git config --global color.ui true --> Marco de colores para los comando
 ```
 
 ## Crear e Iniciar Repositorio
