@@ -1,8 +1,9 @@
 ## Add your files
 
-'''ssh
-    $ cd existing_repo
-    $ git remote add origin https://gitlab.com/mdelema/car-assambly.git
+```ssh
+    $ mkdir "Test_Repo"
+	$ cd "Test_Repo"
+    $ git remote add origin https://gitlab.com/user/"Test_Repo".git
     $ git branch -M main
-    $ git push -uf origin main
-'''
+    $ git push -uf origin main 
+```
