@@ -1,3 +1,3 @@
-# CURSOS - Git-GitHub & GitLab
+# COMANDOS - Git-GitHub & GitLab
 
 
