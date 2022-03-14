@@ -7,3 +7,11 @@
     $ git branch -M main
     $ git push -uf origin main 
 ```
+
+## Commit and execution
+
+```ssh
+    $ git add *                 # * para agregar todo)
+    $ git push                  # Actualiza los cambios y los deja prontos para cargar
+    $ git commit -m "comment"   # Realiza el commit, comenta sobre los cambios y pone a ejecutar la APP
+```
