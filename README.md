@@ -1,3 +1,3 @@
-# COMANDOS -->  Git-GitHub & GitLab
+# Git - GitHub & GitLab
 
 
