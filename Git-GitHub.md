@@ -117,8 +117,8 @@
 	$ git branch -M main
 	$ git branch "Nueva_Rama" ------> Crear nueva rama
 	$ git branch -------------------> Ver las Ramas
-	$ git brunch -d "Nueva_Rama" ---> Elimina la rama lo une al master. Comprueba si no hay commit's pendientes y de lo contrario no la borra 
-	$ git brunch -D "Nueva_Rama" ---> Fuerza el eliminado de la rama
+	$ git branch -d "Nueva_Rama" ---> Elimina la rama lo une al master. Comprueba si no hay commit's pendientes y de lo contrario no la borra 
+	$ git branch -D "Nueva_Rama" ---> Fuerza el eliminado de la rama
 	
 	$ git checkout -b "Nueva_Rama" -> Cerar nueva rama y saltar a ella 
 	$ git checkout "Nueva_Rama_2" --> Cambiar de rama
